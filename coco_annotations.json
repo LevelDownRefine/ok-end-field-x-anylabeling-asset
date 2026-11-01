@@ -1208,6 +1208,12 @@
       "file_name": "screenshot_20261021_190646.png",
       "width": 1920,
       "height": 1080
+    },
+    {
+      "id": 245,
+      "file_name": "environment_monitoring_photo.png",
+      "width": 1920,
+      "height": 1080
     }
   ],
   "annotations": [
@@ -5200,6 +5206,32 @@
       ],
       "area": 304,
       "iscrowd": 0
+    },
+    {
+      "id": 316,
+      "image_id": 178,
+      "category_id": 293,
+      "bbox": [
+        1383,
+        666,
+        82,
+        75
+      ],
+      "area": 6150,
+      "iscrowd": 0
+    },
+    {
+      "id": 317,
+      "image_id": 245,
+      "category_id": 294,
+      "bbox": [
+        52,
+        726,
+        26,
+        24
+      ],
+      "area": 624,
+      "iscrowd": 0
     }
   ],
   "categories": [
@@ -6661,6 +6693,16 @@
     {
       "id": 292,
       "name": "login_in",
+      "supercategory": ""
+    },
+    {
+      "id": 293,
+      "name": "environment_monitoring_enter",
+      "supercategory": ""
+    },
+    {
+      "id": 294,
+      "name": "photo_target_checked",
       "supercategory": ""
     }
   ]
